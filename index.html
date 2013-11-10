@@ -2,11 +2,11 @@
   <head>
     <title>Jingle Interop Testing</title>
     <script type="text/javascript" src="/scripts/primus.js"></script>
-    <script type="text/javascript" src="/scripts/attach-media-stream/attachmediastream.bundle.js"></script>
-    <script type="text/javascript" src="/scripts/jingle.js/jingle.bundle.js"></script>
+    <script type="text/javascript" src="attachmediastream.bundle.js"></script>
+    <script type="text/javascript" src="jingle.bundle.js"></script>
     <script type="text/javascript">
     var outgoing = []
-    var socket = new Primus('//' + window.document.location.host)
+    var socket = new Primus('https://xmpp-ftw.jit.su')
     var jingle = new Jingle()
     </script>
   </head>
