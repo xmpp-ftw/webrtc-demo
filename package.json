@@ -27,6 +27,7 @@
     "jingle": "~0.2.4",
     "attachmediastream": "~1.0.1",
     "uglify-js": "~2.4.3",
-    "browserify": "~2.35.1"
+    "browserify": "~2.35.1",
+    "grunt-contrib-connect": "~0.5.0"
   }
 }
