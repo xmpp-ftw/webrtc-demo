@@ -4,6 +4,8 @@ var jingle = new Jingle()
 var loginInfo = document.getElementById('loginInfo')
 var localStarted = false
 
+localStorage.debug = true
+
 loginInfo.onsubmit = function (e) {
 if (e.preventDefault) e.preventDefault()
 
