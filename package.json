@@ -1,15 +1,32 @@
 {
   "name": "webrtc-demo",
   "version": "0.0.0",
-  "description": "",
-  "main": "Gruntfile.js",
+  "description": "WebRTC demo using xmpp-ftw/jingle/xmpp for the signalling protocol",
+  "main": "build.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/xmpp-ftw/webrtc-demo.git"
+  },
+  "keywords": [
+    "xmpp",
+    "webrtc",
+    "jingle",
+    "signalling",
+    "video",
+    "audio"
+  ],
+  "author": "Lloyd Watkin <lloyd@evilprofessor.co.uk>",
   "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/xmpp-ftw/webrtc-demo/issues"
+  },
   "dependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-connect": "~0.5.0"
+    "jingle": "~0.2.4",
+    "attachmediastream": "~1.0.1",
+    "uglify-js": "~2.4.3",
+    "browserify": "~2.35.1"
   }
 }
