@@ -21,5 +21,5 @@ bundle.bundle(options, function (err, js) {
     else
       result = UglifyJS.minify(js, { fromString: true }).code
 
-    fs.writeFileSync('webrtc.bundle.js', result)
+    fs.writeFileSync('xmpp-ftw.bundle.js', result)
 })
