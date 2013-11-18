@@ -9,5 +9,5 @@ See also https://github.com/legastero/jingle-interop-demos for great work from [
 
 This demo should be available here: http://xmpp-ftw.github.io/webrtc-demo. 
 
-[Note: you will be pushing your password over HTTP - maybe use a test account or anonymous login].
+[Note: Code is being loaded over HTTP, but XMPP connection is over wss/https].
 
