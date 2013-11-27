@@ -12,3 +12,7 @@ This demo should be available here: http://xmpp-ftw.github.io/webrtc-demo.
 [Note: Code is being loaded over HTTP, but XMPP connection is over wss/https].
 
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/xmpp-ftw/webrtc-demo/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
