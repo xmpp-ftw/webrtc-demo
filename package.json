@@ -24,7 +24,7 @@
     "url": "https://github.com/xmpp-ftw/webrtc-demo/issues"
   },
   "dependencies": {
-    "jingle": "~0.2.4",
+    "jingle": "~0.2.6",
     "attachmediastream": "~1.0.1",
     "uglify-js": "~2.4.3",
     "browserify": "~2.35.1",
