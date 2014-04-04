@@ -14,7 +14,7 @@ loginInfo.onsubmit = function (e) {
   var username = jid.slice(0, jid.indexOf('@'))
 
   console.log('Connected')
-  socket.emit(
+  socket.send(
     'xmpp.login', {
         jid: jid,
         password: document.getElementById('password').value,
@@ -23,7 +23,7 @@ loginInfo.onsubmit = function (e) {
   )
   socket.on('xmpp.connection', function(data) {
     console.log('connected', data)
-    socket.emit('xmpp.presence', {})
+    socket.send('xmpp.presence', {})
     document.getElementById('myJID').textContent = data.jid.user +
         '@' + data.jid.domain + '/' + data.jid.resource
   })
@@ -47,7 +47,7 @@ loginInfo.onsubmit = function (e) {
       console.debug('sending', data)
       window.jingleAccept = data
     }
-    socket.emit('xmpp.jingle.request', data, function(error, success) {
+    socket.send('xmpp.jingle.request', data, function(error, success) {
       if (error) return console.error('Failed', error)
       console.log(data.jingle.action + ' ack', success)
     })
