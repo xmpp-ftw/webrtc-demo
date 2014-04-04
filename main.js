@@ -18,7 +18,8 @@ loginInfo.onsubmit = function (e) {
     'xmpp.login', {
         jid: jid,
         password: document.getElementById('password').value,
-        host: document.getElementById('host').value
+        host: document.getElementById('host').value,
+        resource: document.getElementById('resource').value || null
     }
   )
   socket.on('xmpp.connection', function(data) {
