@@ -19,7 +19,7 @@ loginInfo.onsubmit = function (e) {
         jid: jid,
         password: document.getElementById('password').value,
         host: document.getElementById('host').value,
-        resource: document.getElementById('resource').value || null
+        resource: document.getElementById('resource').value || 'jingle-rocks'
     }
   )
   socket.on('xmpp.connection', function(data) {
