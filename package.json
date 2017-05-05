@@ -24,10 +24,10 @@
     "url": "https://github.com/xmpp-ftw/webrtc-demo/issues"
   },
   "dependencies": {
-    "attachmediastream": "~1.0.1",
-    "uglify-js": "~2.4.3",
-    "browserify": "~2.35.1",
-    "grunt-contrib-connect": "~0.5.0",
-    "jingle": "^0.2.6"
+    "attachmediastream": "~1.4.2",
+    "uglify-js": "~2.8.22",
+    "browserify": "~14.3.0",
+    "grunt-contrib-connect": "~1.0.2",
+    "jingle": "^3.0.2"
   }
 }
