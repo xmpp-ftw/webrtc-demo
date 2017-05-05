@@ -1,6 +1,8 @@
 WebRTC Demo
 ============
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/xmpp-ftw/webrtc-demo.svg)](https://greenkeeper.io/)
+
 A webRTC demo using XMPP-FTW to do the signalling over XMPP.
 
 All files live in the `gh-pages` branch.
