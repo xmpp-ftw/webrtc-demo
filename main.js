@@ -1,7 +1,7 @@
 var Jingle = require('jingle')
   , attachMediaStream = require('attachmediastream')
 
-var socket = new Primus('https://xmpp-ftw.jit.su')
+var socket = new Primus('https://xmpp-ftw.herokuapp.com')
 var jingle = new Jingle()
 
 var loginInfo = document.getElementById('loginInfo')
