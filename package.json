@@ -4,7 +4,9 @@
   "description": "WebRTC demo using xmpp-ftw/jingle/xmpp for the signalling protocol",
   "main": "build.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -28,6 +30,8 @@
     "uglify-js": "~2.4.3",
     "browserify": "~2.35.1",
     "grunt-contrib-connect": "~0.5.0",
-    "jingle": "^0.2.6"
-  }
+    "jingle": "^0.2.6",
+    "snyk": "^1.85.0"
+  },
+  "snyk": true
 }
